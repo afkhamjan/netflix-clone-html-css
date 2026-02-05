@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+    background-color: black;
+}
+.main {
+  background-image: url(bg.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 75vh;
+  position: relative;
+}
+.main .box {
+  height: 75vh;
+  width: 100%;
+  opacity: 0.68;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+nav img {
+  width: 128px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 15px;
+  padding: 0 29px;
+}
+.hero> :nth-child(1) {
+  font-size: 90px;
+  font-weight: bolder;
+  text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    height: 8px;
+    background-color: rgb(70, 70, 70);
+} 
+.btn{
+    padding: 3px 8px;
+    font-weight: 350;
+    background-color: rgba(247, 243, 243, 0.178);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+     padding: 7px 101px 8px 14px;
+     color: rgba(250, 235, 215, 0.925);
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(245, 234, 234, 0.5);
+}
+.btn-red-sn{
+     background-color: red;
+    color: rgba(255, 255, 255, 0.753);
+    padding: 2px 18px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+.secimg{
+    position: relative;
+
+}
+.secimg img{
+    width: 30vw;
+   
+}
+.secimg video{
+    position: absolute;
+    width: 30vw;
+    top: 60px;
+    right: 0;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first> div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+      margin-top: 10px;
+}
+.Faq h2{
+    text-align: center;
+}
+.Faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox:hover{
+    background-color: rgba(95, 94, 94, 0.671);
+}
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.308);
+    padding: 19px;
+    max-width: 60vw;
+    margin: auto;
+     transition: all 1s ease-out;
+
+    font-size: 24px;
+    cursor: pointer;
+
+}
+.faqbox span{
+    color: white;
+}
+
